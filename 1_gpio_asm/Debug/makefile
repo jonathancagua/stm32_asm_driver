@@ -59,8 +59,8 @@ all: main-build
 main-build: 1_gpio_asm.elf secondary-outputs
 
 # Tool invocations
-1_gpio_asm.elf 1_gpio_asm.map: $(OBJS) $(USER_OBJS) C:\Users\dev_fw\STM32CubeIDE\workspace_2\1_gpio_asm\STM32F469NIHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "1_gpio_asm.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\dev_fw\STM32CubeIDE\workspace_2\1_gpio_asm\STM32F469NIHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="1_gpio_asm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+1_gpio_asm.elf 1_gpio_asm.map: $(OBJS) $(USER_OBJS) /Users/jonathancagua/STM32/stm32_asm_driver/1_gpio_asm/STM32F469NIHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "1_gpio_asm.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/jonathancagua/STM32/stm32_asm_driver/1_gpio_asm/STM32F469NIHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="1_gpio_asm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

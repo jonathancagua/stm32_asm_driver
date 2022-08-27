@@ -1,0 +1,17 @@
+00:35:20 **** Incremental Build of configuration Debug for project 2_blink_asm2 ****
+make -j3 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o" "../Src/main.s"
+arm-none-eabi-gcc -o "2_blink_asm2.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/jonathancagua/STM32/stm32_asm_driver/2_blink_asm2/STM32F469NIHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2_blink_asm2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2_blink_asm2.elf
+ 
+arm-none-eabi-size   2_blink_asm2.elf 
+arm-none-eabi-objdump -h -S  2_blink_asm2.elf  > "2_blink_asm2.list"
+   text	   data	    bss	    dec	    hex	filename
+    756	      8	   1568	   2332	    91c	2_blink_asm2.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2_blink_asm2.list
+ 
+
+00:35:20 Build Finished. 0 errors, 0 warnings. (took 359ms)
+
