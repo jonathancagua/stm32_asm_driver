@@ -1,8 +1,12 @@
-/*
- * led.c
- *
- *  Created on: Dec 21, 2022
- *      Author: dev_fw
+/**
+ * @file led.c
+ * @author jonathan cagua
+ * @brief libreria para manejo de led en bare metal
+ * @version 0.1
+ * @date 2022-12-21
+ * 
+ * @copyright Copyright (c) 2022
+ * 
  */
 
 #include <stdint.h>
@@ -17,7 +21,7 @@
 #define GPIOD_MODER 	(*(volatile uint32_t *)(AHB1_GPIOD + 0x00))
 #define GPIOD_OTYPE 	(*(volatile uint32_t *)(AHB1_GPIOD + 0x04))
 #define GPIOD_OTYPE 	(*(volatile uint32_t *)(AHB1_GPIOD + 0x04))
-#define GPIOD_PUPDR 		(*(volatile uint32_t *)(AHB1_GPIOD + 0x0c))
+#define GPIOD_PUPDR     (*(volatile uint32_t *)(AHB1_GPIOD + 0x0c))
 #define GPIOD_ODR  		(*(volatile uint32_t *)(AHB1_GPIOD + 0x14))
 #define GPIOD_BSRR 		(*(volatile uint32_t *)(AHB1_GPIOD + 0x18))
 #define LED_PIN 		(12)
