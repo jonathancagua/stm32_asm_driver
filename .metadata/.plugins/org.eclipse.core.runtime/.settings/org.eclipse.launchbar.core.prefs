@@ -1,10 +1,11 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_gpio_asm Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:2_blink_asm2 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:3_blink_bsrr_asm Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_gpio_asm Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:2_blink_asm2 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:3_blink_bsrr_asm Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:4_led_reg_tesst
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_gpio_asm\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_gpio_asm\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_sram_test\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_sram_test\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:2_blink_asm2\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:4_led_reg_tesst/activeLaunchMode=debug

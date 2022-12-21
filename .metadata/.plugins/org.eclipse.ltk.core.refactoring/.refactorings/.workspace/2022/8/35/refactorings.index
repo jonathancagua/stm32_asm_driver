@@ -2,3 +2,5 @@
 1661516726331	Delete resource '1_sram_test/Core/Inc/cs43l22.h'
 1661527606708	Delete resource '1_gpio_asm/Src/main.c'
 1661570204253	Delete resource '1_gpio_asm'
+1661609045778	Delete resource 'stm32f469_discovery_no_os'
+1661622615238	Delete resource '4_pdm'
