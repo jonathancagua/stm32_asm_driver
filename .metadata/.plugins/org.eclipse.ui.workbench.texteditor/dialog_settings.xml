@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="TIM4"/>
+		<item key="selection" value="GPIOD_PUPDR"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="GPIOD_PUPD"/>
+			<item value="GPIOD_MODE"/>
+			<item value="GPIOD_BASE"/>
+			<item value="RCC_AHB1ENR"/>
+			<item value="AHB1_CLOCK_ER"/>
 			<item value="TIM4"/>
 			<item value="DFSDM1"/>
 			<item value="GPIO_AF8_DFSDM1"/>
@@ -16,6 +21,11 @@
 			<item value="ram"/>
 		</list>
 		<list key="replacehistory">
+			<item value="GPIOD_PUPDR"/>
+			<item value="GPIOD_MODER"/>
+			<item value="AHB1_GPIOD"/>
+			<item value="RCC_AHB1ENR"/>
+			<item value="AHB1_RCC"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
